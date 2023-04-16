@@ -12,7 +12,7 @@ bash install-rust.sh -y
 source $HOME/.cargo/env
 
 git clone https://github.com/zubayr1/optrand-rs.git
-cd randpiper-rs
+cd optrand-rs
 
 git pull
 git checkout biaccumulator
