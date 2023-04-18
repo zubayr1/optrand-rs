@@ -16,7 +16,7 @@ log = "0"
 ark-bls12-381 = { version = "0.3", default-features = true }
 derivative = "2"
 derive_builder = "0"
-tokio-util = "0"
+tokio-util = {version = "0.7.7", features= ["full"]}
 reed-solomon-erasure = { version = "5" }
 crypto_lib = {package = "crypto", git = "https://github.com/adithyabhatkajake/libchatter-rs"}
 openssl = "0"

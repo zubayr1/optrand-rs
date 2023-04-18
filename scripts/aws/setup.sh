@@ -3,6 +3,9 @@ sudo apt-get update
 sudo apt install make
 sudo apt install build-essential
 
+sudo apt install pkg-config
+sudo apt-get install libssl-dev
+
 sudo pacman -S git --noconfirm
 sudo apt-get install git build-utils
 
