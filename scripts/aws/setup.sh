@@ -15,5 +15,4 @@ git clone https://github.com/zubayr1/optrand-rs.git
 cd optrand-rs
 
 git pull
-git checkout biaccumulator
-make release
+make all
